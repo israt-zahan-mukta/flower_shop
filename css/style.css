@@ -1,0 +1,340 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* Global CSS  */
+*{
+	margin:0 ;
+}
+body{
+   font-family: 'Lato', sans-serif;
+}
+/* Header Section */
+header{
+	background: rgba(229, 84, 115, 0.10);
+	background-size: cover;	
+}
+.header-section{
+	display: flex;
+	margin: 0 12%;
+	padding-top: 50px;
+}
+.header-column-one{
+	width: 60%;
+}
+.header-column-one h1{
+	margin: 10% 0 30px;
+   padding-right: 100px;
+   font-weight: 900;
+   font-size: 60px;
+   color: #272727;
+}
+.header-column-one p{
+   margin-bottom: 30px;
+	padding-right: 150px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: rgba(39, 39, 39, 0.60);
+}
+.header-column-one .btn-header{
+	border: none;
+	border-radius: 8px;
+	background: #E55473;
+	padding: 20px 43px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #FFF;
+	margin-bottom: 80px;
+}
+.header-column-two{
+	width: 40%;
+}
+header img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Feature Section */
+.feature-section{
+	margin: 0 12%;
+	padding-top: 130px;
+	padding-bottom: 100px;
+}
+.feature-column-one{
+	text-align: center;
+}
+.feature-column-one h2{
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 900;
+	color: #272727;
+}
+.feature-column-one p{
+	padding: 0 20% 70px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: rgba(39, 39, 39, 0.60);
+}
+.feature-column-two{
+	display: flex;
+	flex-wrap: wrap;
+}
+.feature-image{
+	border-radius: 300px 300px 0px 0px;
+	margin: 0px 0.96%;
+	width: 32%;
+	padding-top: 10px;
+	text-align: center;
+}
+.feature-image-one{
+	background: rgba(167, 33, 98, 0.15);
+	margin-left: 0;
+}
+.feature-image-one img{
+	width: 80%;
+	height: 76%;
+	margin-top: 35%;
+}
+.feature-image-two{
+	background: rgba(5, 151, 160, 0.15);
+}
+.feature-image-two img{
+	width:88%;
+	height: 370px;
+	padding-top: 35%;
+}
+.feature-image-three{
+	background: rgba(71, 125, 17, 0.15);
+	margin-right: 0;
+}
+.feature-image-three img{
+	width: 85%;
+	height: 88%;
+	margin-top: 17%;
+}
+.feature-column-two p{
+	display: inline-block;
+	margin:25px 6.4% 0 8.4%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 35px;
+	color: #272727;
+	text-decoration-line: underline;
+}
+.feature-column-three{
+	background: rgba(39, 39, 39, 0.05);
+	border-radius: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 120px;
+	padding: 50px 0;
+}
+.feature-column-three .support{
+	margin: 40px 20px 50px 35px;
+   width: 26%;
+	text-align: center;
+}
+.feature-column-three .support-one{
+	margin-left: 60px;
+}
+.support img{
+	width: 88px;
+	height: 88px;
+}
+.support p{
+	color: rgba(39, 39, 39, 0.80);
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 35px;
+}
+.sale-section{
+	border-radius: 8px;
+	background: rgba(229, 84, 115, 0.05); 
+}
+.sale-content{
+	display: flex;
+	margin: 0 12%;
+	padding-top: 50px;
+}
+.sale-column-one{
+	width: 70%;
+	text-align: center;
+}
+.sale-column-two{
+	width: 30%;
+	padding-left: 150px;
+}
+.sale-column-two img{
+	width: 250px;
+	margin-bottom : 50px;
+
+}
+.sale-column-one h2{
+	color: #272727;
+	font-size: 40px;
+	font-weight: 900;
+	margin-top: 52px; 
+}
+.sale-column-one p{
+	color: rgba(39, 39, 39, 0.60);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 10px 0 15px;
+}
+.sale-column-one .btn-sale{
+	padding: 20px 43px;
+	border-radius: 8px;
+	background: #E55473;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	margin-bottom: 70px;
+}
+.instagram-content{
+	margin: 0 12%;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.instagram-content h2{
+	color: #272727;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.instagram-content p{
+	text-align: center;
+	color: rgba(39, 39, 39, 0.60);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 0 200px 20px;
+}
+.instagram-column{
+	display: flex;
+}
+.instagram-column .insta-image{
+	width: 25%;
+}
+.insta-image-one{
+	margin-right: 20px;
+}
+.insta-image-two{
+	margin-right: 20px; 
+}
+.insta-image-three{
+	margin-right: 20px; 
+}
+.insta-image-four{
+	margin-right: 0; 
+}
+.insta{
+	width: 100%;
+}
+/* Love Section */
+.love-section{
+	margin: 0 12% 100px;
+}
+.love-content{
+	background: url('../img/love.jpg') no-repeat center top;
+	background-size: cover;
+	border-radius: 8px;
+	padding-top: 158px;
+   padding-bottom: 137px;
+}
+.love-content h2{
+	color: #ede7e7;
+	font-size: 37px;
+	font-weight: 900;
+	padding-left: 45px;
+}
+.love-content ul{
+	color: #ede7e7;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding-left: 65px;
+}
+/* Shopping Section */
+.shopping-section{
+	margin: 0 12% 100px;
+}
+.shopping-content{
+	background: url('../img/contact-bg.png') no-repeat center top;
+	background-size: cover;
+	border-radius: 8px;
+	padding-top: 80px;
+   padding-bottom: 70px;
+	text-align: center;
+}
+.shopping-content h2{
+	color: #272727;
+	font-size: 37px;
+	font-weight: 900;
+}
+.shopping-content p{
+	color: rgba(39, 39, 39, 0.60);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 10px 0 35px;
+}
+.shopping-content form .email-input{
+	outline: none;
+   border: none;
+   border-radius: 8px;
+   background: #FFF;
+	width: 42.5%;
+   padding: 20px;
+   font-size: 16px;
+   font-weight: 400;
+   color: rgba(39, 39, 39, 0.60);
+}
+.shopping-content form .btn-input{
+	outline: none;
+   border: none;
+   border-radius: 8px;
+   background: #E55473;
+   margin-left: 10px;
+   padding:16px;
+   font-size: 20px;
+	font-weight: 400;
+   width: 13%;
+   color: #FFF;
+   text-align: center;
+}
+
+
+/* Footer Section */
+footer{
+	background: #111010;
+}
+.footer-section{
+	margin: 0 12%;
+}
+.footer-content{
+	text-align: center;
+	padding: 10% 0;
+}
+.footer-content img{
+	width: 255px;
+	margin-bottom: 25px;
+}
+.footer-content p{
+	color: rgba(255, 255, 255, 0.90);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 0 20%;
+}
+.footer-content .copyright{
+	margin-top: 25px;
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.40);
+}
